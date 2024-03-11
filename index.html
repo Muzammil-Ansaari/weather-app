@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- -------------- CSS FILE ---------------- -->
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="weather-app">
+            <div class="search">
+                <input type="text" placeholder="Enter your City">
+                <button><img src="./assets/search.png"></button>
+            </div>
+            <div class="error">
+                <p>Error! Please enter a valid city.</p>
+            </div>
+            <div class="weather-data">
+                <img class="weather-icon" src="./assets/rainy-day.png">
+                <div class="city-data">
+                    <h1>26<span>°C</span></h1>
+                    <h2><img src="./assets/location.png"><span>Lahore</span></h2>
+                </div>
+            </div>
+            <div class="other-data">
+                <div class=" data">
+                    <img src="./assets/humidity.png">
+                    <div class="about-data">
+                        <p class="humidity">38%</p>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class=" data">
+                    <img src="./assets/wind.png">
+                    <div class="about-data">
+                        <p class="wind">3<span>km/h</span></p>
+                        <p>Wind</p>
+                    </div>
+                </div>
+                <div class=" data">
+                    <img src="./assets/pressure.png">
+                    <div class="about-data">
+                        <p class="pressure">977</p>
+                        <p>Pressure</p>
+                    </div>
+                </div>
+                <div class=" data">
+                    <img src="./assets/gust.png">
+                    <div class="about-data">
+                        <p class="gust">2.03</p>
+                        <p>Gust</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <!-- -------------- JS FILE ---------------- -->
+    <script src="script.js"></script>
+</body>
+</html>
