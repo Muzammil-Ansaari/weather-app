@@ -25,7 +25,6 @@ async function checkWeather(city) {
     document.querySelector(".about-data .wind").innerHTML = data.wind.speed;
     document.querySelector(".about-data .pressure").innerHTML =
       data.main.pressure;
-    document.querySelector(".about-data .gust").innerHTML = data.wind.gust;
 
     if (data.weather[0].main == "Clouds") {
       weatherIcon.src = "./assets/cloudy.png";
